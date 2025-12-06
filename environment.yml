@@ -1,0 +1,19 @@
+name: sugar 
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - pytorch
+  - torchvision
+  - pip:
+    - ninja==1.11.1
+    - lpips==0.1.4
+    - click==8.1.7
+    - timm==1.0.7
+    - yacs==0.1.8
+    - opencv-python
+    - termcolor
+    - mkl
+    - matplotlib
+    - tensorboard
