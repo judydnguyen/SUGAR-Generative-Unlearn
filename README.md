@@ -1,6 +1,6 @@
 # SUGAR: A Sweeter Spot for Generative Unlearning of Many Identities
 
-*Dung Thuy Nguyen♣, Quang Nguyen♠, Preston K. Robinette♣, Eli Jiang♣, Taylor T. Johnson♣, Kevin Leach♣*
+*Dung Thuy Nguyen, Quang Nguyen, Preston K. Robinette, Eli Jiang, Taylor T. Johnson, Kevin Leach*
 ## Overview
 
 Recent advances in 3D-aware generative models have enabled high-fidelity image synthesis of human identities. However, this progress raises urgent questions around
@@ -179,7 +179,13 @@ tensorboard --logdir experiments/<experiment_name>/logs
 If you use this code in your research, please cite:
 
 ```bibtex
-To Be Updated
+@inproceedings{nguyen2026sugar,
+  title={SUGAR: A Sweeter Spot for Generative Unlearning of Many Identities},
+  author={Nguyen, Dung Thuy and Nguyen, Quang and Robinette, Preston K and Jiang, Eli and Johnson, Taylor T and Leach, Kevin},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={2731--2740},
+  year={2026}
+}
 ```
 
 ## License
